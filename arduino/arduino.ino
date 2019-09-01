@@ -1,9 +1,9 @@
-#include "Debouncer.cpp"
+#include "../Debouncer.cpp"
 
 int ANALOG_PIN = A0;
 int ONBOARD_LED = 13;
 
-int SIGNAL_THRESHOLD = 400;
+int SIGNAL_THRESHOLD = 300;
 
 unsigned long TICK_INTERVAL_MILLIS = 2000;
 
