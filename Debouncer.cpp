@@ -1,8 +1,9 @@
 class Debouncer {
   public:
-    Debouncer(int maximum) {
+    Debouncer(int maximum, bool initialState) {
       this->maximum = maximum;
       this->current = 0;
+      this->isUp = initialState;
     }
 
     bool debounce(bool signal) {
