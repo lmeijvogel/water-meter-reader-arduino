@@ -1,0 +1,4 @@
+arduino/build-nano/
+arduino/build-uno/
+bin/
+obj/
