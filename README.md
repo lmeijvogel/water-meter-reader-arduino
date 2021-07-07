@@ -36,3 +36,8 @@ For /dev/ttyACM0 to be visible on a Raspberry Pi, enable the serial interface fr
 - Serial
 - Would you like a login shell to accessible over serial => NO
 - Enable serial interface => YES
+
+Connecting the sensor to the Arduino:
+- 5V:  Red
+- GND: Black
+- A0:  Yellow
